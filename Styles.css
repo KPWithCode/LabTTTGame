@@ -1,0 +1,48 @@
+body  {
+    padding: 10em 15em 10em 15em;
+    background-color: coral;
+    color: black;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#board  {
+padding-top: 3em;
+
+}
+
+.row > div{
+    float: left;
+    width: 100px;
+    height: 100px;
+    clear: none;
+}
+
+
+.row   {
+margin: 0 auto;
+width: 302px;
+
+font-size: 4em;
+}
+
+
+.top    {
+border-bottom: 1px solid black;
+}
+
+.bottom {
+border-top: 1px solid black;
+}
+
+.left   {
+border-right: 1px solid black;
+}
+
+.right  {
+border-left: 1px solid black;
+}
