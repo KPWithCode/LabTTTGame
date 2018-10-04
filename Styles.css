@@ -19,14 +19,14 @@ padding-top: 3em;
     float: left;
     width: 100px;
     height: 100px;
-    clear: none;
+  
 }
 
 
 .row   {
 margin: 0 auto;
 width: 302px;
-
+clear: none;
 font-size: 4em;
 }
 
