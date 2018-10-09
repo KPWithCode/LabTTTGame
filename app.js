@@ -1,9 +1,22 @@
-var friends = ['Matt', 'Jacob','Ann', 'Kimberly', 'David', 'Kyle', 'Brian']
-for(var i = 0; i<friends.length; i++)   {
-    console.log(friends[i]);
 
-if (friends [i] == 'David') {
-    console.log ('Found Him!');
-    break;
-    }
+let isPlayer1 = true;
+let isPlayer2 = false;
+
+
+let row = document.querySelectorAll('.row > div');
+// row.addEventListener('click', function(e) { 
+//     e.target.innerHTML = ('X');
+// });
+console.log(row);
+row.forEach(function(cell)  {
+    cell.addEventListener("click", cellClicked);
+});
+// main game logic
+function cellClicked(e) {
+    e.target.textContent = 'HI';
+    togglePlayer();
+}
+// Helper functions
+function togglePlayer ()    {
+    console.log('togglePlayer');
 }
